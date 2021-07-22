@@ -272,18 +272,15 @@ header .wrapper,
 
 .services .section__heading {color: #f1f0f0;}
 
-.services .section__heading::after {
-  content: '';
-  width: 65px;
-  height: 3px;
-  position: absolute;
-  bottom: 0;
+.services .section__heading::after,
+.gallery .section__heading::after {
   background-color: #dedddd;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.services p {
+.services p,
+.gallery p {
   margin: 20px 0;
   color: #f1f0f0;
   font-size: 18px;
@@ -325,9 +322,47 @@ header .wrapper,
   font-size: 23px;
   color: #f1f0f0;
 }
-
 /* Services secton ends */
 
+/* gallery section start */
+.gallery {
+  padding: 5% 0 6%;
+  text-align: center;
+}
+
+.gallery .section__heading::after { background-color: #69AD31;}
+.gallery p {color: #746f6f;}
+
+.gallery__btn__grp { margin: 20px 0;}
+
+.gallery .tab__btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  background-color: #E5E5E5;
+  color: #767676;
+  font-size: 15px;
+  transition: ease .4s;
+}
+
+.gallery .tab__btn.active,
+.gallery .tab__btn:hover {
+  background-color: #78b744;
+  color: #fff;
+}
+
+.gallery__images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.gallery__images li {
+  margin: 12px 0;
+  flex-basis: 31.7%;
+}
+
+/* gallery section ends */
 
 /*=================================
   main styling ends here
