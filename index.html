@@ -1,30 +1,15 @@
 <!doctype html>
 
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
- 
+
   <meta charset="utf-8">
 
   <title>Client</title>
-  
-  <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
-  <!-- <meta name="description" lang="en" content=""> -->
-  
-  <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
-  <!-- <meta name="keywords" lang="en" content=""> -->
-  
-  <!-- View-port Basics: http://mzl.la/VYREaP -->
-  <!-- This meta tag is used for mobile device to display the page without any zooming,
-       so how much the device is able to fit on the screen is what's shown initially. 
-       Remove comments from this tag, when you want to apply media queries to the website. -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
-  
-  <!-- To adhear no-cache for Chrome -->
-<!--   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-store, no-cache" />
-  <meta http-equiv="Expires" content="0" /> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
@@ -33,13 +18,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
-
-  <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->	
-  <!--[if lt IE 9]>  
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
-  <![endif]-->
-
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
@@ -47,24 +26,275 @@
   <div class="container">
     <!--header section start-->
     <header>
+      <div class="wrapper">
+        <h1 class="logo">
+          <a href="index.html" title="Landscaper">Landscaper</a>
+        </h1>
+        <nav class="menu">
+          <div class="humberger">
+            <span class="humberger__span">humberger</span>
+          </div>
+          <ul>
+            <li><a href="#fixme" class="menu__item" title="Home">Home</a></li>
+            <li><a href="#fixme" class="menu__item" title="Services">Services</a></li>
+            <li><a href="#fixme" class="menu__item" title="Gallery">Gallery</a></li>
+            <li><a href="#fixme" class="menu__item" title="Testimonials">Testimonials</a></li>
+            <li><a href="#fixme" class="menu__item" title="Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
+      <!-- Banner start here -->
+      <div class="banner">
+        <figure class="banner__image">
+          <img src="./assets/images/banner.jpg" alt="Landscaper">
+        </figure>
+        <div class="wrapper">
+          <h2 class="banner__heading">LANDSCAPING SERVICES</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero doloremque beatae tenetur quod aspernatur
+            ipsam</p>
+          <div class="landscaper__btn">
+            <a href="#fixme" title="More Info">More Info</a>
+          </div>
+        </div>
+      </div>
+      <!-- Banner ends here -->
 
+      <!-- Welcome section start here -->
+      <section class="welcome">
+        <div class="wrapper">
+          <div class="welcome__content">
+            <h3 class="section__heading">Welcome to Landscaper</h3>
+            <p>Lorem ipsum dolor sit ame
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim, illo</p>
+            <ul class="services__cards">
+              <li>
+                <a href="#fixme" title="Lawn Care">
+                  <figure>
+                    <img src="assets/images/service_1.jpg" alt="Lawn Care">
+                  </figure>
+                  <h4>Lawn Care</h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam illum nulla deleniti iste,
+                    tempora aliquid. Incidunt rem facilis doloremque laboriosam ex quas! Id, aliquid.</p>
+                </a>
+              </li>
+              <li>
+                <a href="#fixme" title="Lawn Care">
+                  <figure>
+                    <img src="assets/images/service_2.jpg" alt="Lawn Care">
+                  </figure>
+                  <h4>Lawn Care</h4>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam illum nulla deleniti iste,
+                    tempora aliquid. Incidunt rem facilis doloremque laboriosam ex quas! Id, aliquid.</p>
+                </a>
+              </li>
+            </ul>t consectetur adipisicing elit. Commodi dolorum similique omnis soluta culpa,
+            laborum tempora, vero asperiores incidunt iste totam nulla velit deleniti blanditiis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolorum similique omnis soluta culpa,
+              laborum tempora, vero asperiores incidunt iste totam nulla velit deleniti blanditiis!</p>
+            <div class="landscaper__btn">
+              <a href="#fixme" title="More Info">VIEW ALL SERVICES</a>
+            </div>
+          </div>
+          <div class="welcome__cards">
+            <div class="card">
+              <figure class="card__img">
+                <img src="/assets/images/garden__care.jpg" alt="Garden Care">
+              </figure>
+              <h4>Garden Care</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt est a praesentium facere nihil
+                laborum neque, commodi perspiciatis quo saepe sed blanditiis repudiandae similique qui.</p>
+            </div>
+            <div class="card">
+              <figure class="card__img">
+                <img src="/assets/images/lawn__care.jpg" alt="Lawn Care">
+              </figure>
+              <h4>Lawn Care</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt est a praesentium facere nihil
+                laborum neque, commodi perspiciatis quo saepe sed blanditiis repudiandae similique qui.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Welcome section ends here -->
+
+      <!-- Services section starts here -->
+      <section class="services">
+        <div class="wrapper">
+          <h3 class="section__heading">Our Services</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim, illo</p>
+          <ul class="services__cards">
+            <li>
+              <a href="#fixme" title="Lawn Care">
+                <figure>
+                  <img src="assets/images/service_1.jpg" alt="Lawn Care">
+                </figure>
+                <h4>Lawn Care</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam illum nulla deleniti iste,
+                  tempora aliquid. Incidunt rem facilis doloremque laboriosam ex quas! Id, aliquid.</p>
+              </a>
+            </li>
+            <li>
+              <a href="#fixme" title="Landscape Design">
+                <figure>
+                  <img src="assets/images/service_2.jpg" alt="Landscape Design">
+                </figure>
+                <h4>Landscape Design</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam illum nulla deleniti iste,
+                  tempora aliquid. Incidunt rem facilis doloremque laboriosam ex quas! Id, aliquid.</p>
+              </a>
+            </li>
+            <li>
+              <a href="#fixme" title="Tree Care">
+                <figure>
+                  <img src="assets/images/service_3.jpg" alt="Tree Care">
+                </figure>
+                <h4>Tree Care</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam illum nulla deleniti iste,
+                  tempora aliquid. Incidunt rem facilis doloremque laboriosam ex quas! Id, aliquid.</p>
+              </a>
+            </li>
+            <li>
+              <a href="#fixme" title="Spring & Fall Cleanup">
+                <figure>
+                  <img src="assets/images/service_4.jpg" alt="Spring & Fall Cleanup">
+                </figure>
+                <h4>Spring & Fall Cleanup</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam illum nulla deleniti iste,
+                  tempora aliquid. Incidunt rem facilis doloremque laboriosam ex quas! Id, aliquid.</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Services section ends here -->
+
+      <!-- Gallery Section start here -->
+      <section class="gallery">
+        <div class="wrapper">
+          <h3 class="section__heading">Project Gallery</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim, illo</p>
+          <ul class="gallery__btn__grp">
+            <li><a href="#fixme" class="tab__btn active">ALL</a></li>
+            <li><a href="#fixme" class="tab__btn">LAWN CARE</a></li>
+            <li><a href="#fixme" class="tab__btn">GARDEN CARE</a></li>
+            <li><a href="#fixme" class="tab__btn">PLANTING</a></li>
+          </ul>
+          <ul class="gallery__images">
+            <li><img src="./assets/images/gallery_1.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_2.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_3.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_4.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_5.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_6.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_7.jpg" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_8" alt="Gallery"></li>
+            <li><img src="./assets/images/gallery_9.jpg" alt="Gallery"></li>
+          </ul>
+        </div>
+      </section>
+      <!-- Gallery Section ends here -->
+
+      <!-- Testimonial start here -->
+      <section class="testimonial">
+        <div class="wrapper">
+          <figure>
+            <img src="/assets/images/testimonial.jpg" alt="Testimonial">
+          </figure>
+          <div class="testimonial__slider">
+            <div class="slider">
+              <div class="slide">
+                <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero odio at, provident quae
+                  inventore laboriosam doloremque veniam libero dolorem? "</p>
+                <span>-John DOE, Parker Country, TX</span>
+              </div>
+              <div class="slide">
+                <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero odio at, provident quae
+                  inventore laboriosam doloremque veniam libero dolorem? "</p>
+                <span>-John DOE, Parker Country, TX</span>
+              </div>
+              <div class="slide">
+                <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero odio at, provident quae
+                  inventore laboriosam doloremque veniam libero dolorem? "</p>
+                <span>-John DOE, Parker Country, TX</span>
+              </div>
+              <div class="slide">
+                <p>" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero odio at, provident quae
+                  inventore laboriosam doloremque veniam libero dolorem? "</p>
+                <span>-John DOE, Parker Country, TX</span>
+              </div>
+            </div>
+            <ul class="slider__btn">
+              <li><a href="#fixme" title="1"><span>slider btn</span></a></li>
+              <li><a href="#fixme" title="2"><span>slider btn</span></a></li>
+              <li><a href="#fixme" title="3"><span>slider btn</span></a></li>
+              <li><a href="#fixme" title="4"><span>slider btn</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Testimonial ends here -->
+
+      <!-- Contact section start here -->
+      <section class="contact">
+        <div class="wrapper">
+          <h3 class="section__heading">Contact Us</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora enim, illo</p>
+          <ul class="contact__grp">
+            <li>
+              <h4>ADDRESS</h4>
+              <address>
+                4321 California St, San Francisco, CA 12345
+              </address>
+            </li>
+            <li>
+              <h4>WORKING HOURS</h4>
+              <p>Monday-Saturday: 07:00-18:00 Sunday:CLOSED</p>
+            </li>
+            <li>
+              <h4>CONTACT INFO</h4>
+              <a href="tel:+1 123 456 1234" title="+1 123 456 1234">Phone: +1 123 456 1234</a>
+              <a href="mailto:info@company.com" title="info@company.com">Email: info@company.com</a>
+            </li>
+          </ul>
+          <h4>LEAVE US MESSAGE</h4>
+          <form action="#" class="contact__form">
+            <div class="form__control">
+              <input type="text" placeholder="Name">
+            </div>
+            <div class="form__control">
+              <input type="text" placeholder="Email">
+            </div>
+            <div class="form__control text__area">
+              <textarea placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="SEND MESSAGE">
+          </form>
+        </div>
+      </section>
+      <!-- Contact section ends here-->
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
-
+    <footer>
+      <div class="wrapper">
+        <ul class="social">
+          <li><a href="#fixme" title="Facebook" class="facebook"><span>Facebook</span></a></li>
+          <li><a href="#fixme" title="Twitter" class="twitter"><span>Twitter</span></a></li>
+          <li><a href="#fixme" title="Facebook" class="google plus"><span>google plus</span></a></li>
+        </ul>
+        <p>&copy; Landscaper. Designed by TemplateWire</p>
+      </div>
     </footer>
-    <!--footer section end-->
 
-  </div>
-  <!--container end-->
+    <!--container end-->
 
-<!-- <script src="js/vendors/jquery-1.8.3.min.js"></script>
+    <!-- <script src="js/vendors/jquery-1.8.3.min.js"></script>
 <script src="js/script.js"></script> -->
 </body>
+
 </html>
