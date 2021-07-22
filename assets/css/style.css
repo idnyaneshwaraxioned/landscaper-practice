@@ -195,7 +195,73 @@ header .wrapper,
 }
 /* Banner style ends here */
 
+/* Welcome section start  */
+.welcome .wrapper{
+  padding: 8% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.section__heading {
+  position: relative;
+  padding: 15px 0;
+  margin: 10px 0;
+  color: #494848;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.section__heading span { color: #69AD31;}
+
+.section__heading::after {
+  content: '';
+  width: 65px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  background-color: #69AD31;
+  left: 0;
+}
+
+.welcome__content, .welcome__cards {flex-basis: 48%;}
+
+.welcome__content p {
+  margin: 30px 0;
+  color: #746f6f;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.welcome__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome__cards .card {
+  width: 47%;
+  transition: ease .4s;
+}
+
+.welcome__cards .card:hover {
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+.welcome__cards h4 {
+  margin: 15px 0;
+  color: #494848;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.welcome__cards p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #494848;
+}
+/* Welcome section ends  */
 
 
 
