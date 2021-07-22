@@ -100,17 +100,49 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1360px;
-  width: 86%; 
+  width: 84%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+.humberger {display: none;}
 
+header {
+  background-color: #363636;
+  color: #fff;
+}
 
+header .wrapper,
+.menu ul {
+  padding: 17px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
 
+.logo a {color: #dedddd;}
 
+.menu { flex-basis: 50%;}
+
+.menu__item {
+  margin: 0px 5px;
+  display: inline-block;
+  font-size: 14px;
+  color: #b1b0b0;
+  text-transform: uppercase;
+  transition: ease .5s;
+}
+
+.menu__item:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 
 /*=================================
   Header styling ends here
@@ -120,7 +152,48 @@ li {
   main styling starts here
 =================================*/
 
+/* Banner style start here */
+.banner { position: relative;}
 
+.banner .wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;  
+}
+
+.banner__heading {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.banner p {
+  width: 65%;
+  margin: 10px auto 15px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.landscaper__btn a {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #69AD31;
+  margin: 25px 0;
+  display: inline-block;
+  background-color: #69AD31;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: ease .5s;
+}
+
+.landscaper__btn a:hover {
+  background-color: #fff;
+  color: #69AD31;
+}
+/* Banner style ends here */
 
 
 
